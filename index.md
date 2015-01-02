@@ -4,7 +4,7 @@ layout: default
 
 I am a 17 year old high school student/iOS developer based in Vienna, Austria. When I am not studying or coding, I am most likely watching TV series, writing stories, or doing sport.
 
-I haven't published an app yet, but I plan to do so in the year 2015.
+I haven't published any apps yet, but I plan to do so in 2015.
 
 ### Contact
 
