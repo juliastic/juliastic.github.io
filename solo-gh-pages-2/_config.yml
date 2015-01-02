@@ -1,7 +1,7 @@
 # Site settings
 title: Julia Grill
-tag_text: An iOS programmer
-description:
+tag_text: A programmer
+description: .
 
 # Build settings
 markdown: kramdown

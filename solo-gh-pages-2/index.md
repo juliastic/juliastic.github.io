@@ -10,4 +10,4 @@ I haven't published an app yet, but I plan to do so in the year 2015.
 
 * [Twitter](http://twitter.com/juliastic)
 * [Github](http://github.com/juliastic)
-* Mail <a href="mailto:jusogrill@gmail.com”>Mail</a> 
+* [Mail]<a href="mailto:jusogrill@gmail.com”>Mail</a> 
