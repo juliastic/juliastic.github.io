@@ -1,5 +1,3 @@
-# Solo 
+# juliastic.github.io
 
-[Solo](http://solo.chibi.io) is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
-
-### [Demo & Documentation &rarr;](http://solo.chibi.io)
+This site uses [Solo](http://solo.chibi.io), a Jekyll theme that supports **single-page websites**.
