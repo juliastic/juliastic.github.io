@@ -1,0 +1,141 @@
+
+/********************************
+ GENERAL
+********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: black;
+  background-color: #fff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: black;
+  margin: 15px 0;
+  padding: 20px 20px;
+  font-size: 1.75em;
+  line-height: 0.8em;
+}
+
+footer {
+   color: #999;
+   /*padding-top: 5px;*/
+   margin: 0;
+ }
+
+
+/********************************
+ HEADING
+********************************/
+
+#name {
+  text-align: center;
+  /* no spacing around the items on all four sides */
+}
+
+header {
+  float: left;
+  /*seperates the header from the other content*/
+  /*margin: 0 0 30px 0;*/
+  /*seperating the text*/
+  /*padding: 5px 0 0 0;*/
+  margin-bottom: 1%;
+  width: 100%;
+}
+
+
+/********************************
+ NAVIGATION BAR
+********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  /*puts the three lists items in one line*/
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+  text-decoration: normal;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+/********************************
+ CLASSES AND IDS
+********************************/
+
+#wrapper {
+  color: black;
+  max-width: 940px;
+  padding: 0 5%;
+  /* sets the spacing between the items and the margin */
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1px;
+}
+
+.profile-photo {
+  /*centers it*/
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 20px;
+  box-shadow: none;
+  /*border-radius: 5px;*/
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.0em;
+}
+
+.contact-info li a {
+  text-align: center;
+  color: black;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+
+/********************************
+ CENTER THE PAGE VERTICALLY
+********************************/
+
+.outer {
+  display: table;
+  position: absolute;
+   height: 100%;
+   width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
