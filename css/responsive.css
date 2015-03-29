@@ -1,3 +1,16 @@
-@media screen and (max-width: 320px) { @viewport { width: 320px; } }
+@media screen and (max-width: 320px) { @viewport {
+  width: 320px;
+  }
+  .middle {
+    background-color: #fff;
+  }
+  }
 
-@media screen and (max-width:660px) { @viewport {width: 660px; } }
+@media screen and (max-width:660px) { @viewport {
+  width: 660px;
+  }
+  .middle {
+    background-color: #fff;
+  }
+  }
+}
