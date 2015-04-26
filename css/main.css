@@ -33,14 +33,14 @@ h1 {
   line-height: 0.8em;
 }
 
-.preloaded-images {
+/*.preloaded-images {
    position: absolute;
    overflow: hidden;
    left: -9999px;
    top: -9999px;
    height: 1px;
    width: 1px;
-}
+}*/
 
 /********************************
  HEADING
@@ -132,6 +132,9 @@ footer {
 }
 
 .background-image img {
+  top: -9999px;
+  left: -9999px;
+
   position: absolute;
   top: 0;
   left: 0;
