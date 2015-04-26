@@ -1,16 +1,51 @@
 @media screen and (max-width: 320px) { @viewport {
   width: 320px;
+  body {
+    font-size: 20px;
   }
+  }
+
+  .outer {
+    /*display: table;
+    position: absolute;
+    width: 100%;
+    height: 100%;*/
+
+     /*display: -webkit-box;
+     -webkit-box-pack: center;
+     -webkit-box-align: center;
+
+     display: -moz-box;
+     -moz-box-pack: center;
+     -moz-box-align: center;
+
+     display: -ms-box;
+     -ms-box-pack: center;
+     -ms-box-align: center;
+
+     display: box;
+     box-pack: center;
+     box-align: center;
+     */
+  }
+
   .middle {
-    background-color: #fff;
+    display: table-cell;
+    vertical-align: none;
+    text-align: center;
   }
-  }
+}
 
 @media screen and (max-width:660px) { @viewport {
   width: 660px;
   }
-  .middle {
-    background-color: #fff;
+  body {
+    font-size: 20px;
   }
+  .middle {
+  }
+}
+
+@media screen and(min-width:1220px) { @viewport {
   }
 }
