@@ -10,16 +10,10 @@
 }
 
 body {
-  /*font: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'San Francisco Text', sans-serif;
   font-size: 25px;
   text-align: center;
   color: white;
-  /*background-color: #fff;*/
-  /*margin : 0 auto;
-  border : 1px solid #c5c5c5;*/
-  /*box-shadow: 15px 15px 10px rgba(0,0,0,.5);*/
 }
 
 img {
@@ -32,15 +26,6 @@ h1 {
   font-weight: 100;
   line-height: 0.8em;
 }
-
-/*.preloaded-images {
-   position: absolute;
-   overflow: hidden;
-   left: -9999px;
-   top: -9999px;
-   height: 1px;
-   width: 1px;
-}*/
 
 /********************************
  HEADING
@@ -67,7 +52,6 @@ nav ul {
 }
 
 nav li {
-  /*puts the three lists items in one line*/
   display: inline-block;
 }
 
@@ -77,9 +61,44 @@ nav a {
   text-decoration: normal;
 }
 
-a:hover {
-  opacity: 0.5;
+.button {
+  /*padding: 4px;*/
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
+.enlarge {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.enlarge:hover, .enlarge:focus, .enlarge:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*.contact-info {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 0;
+  background: #ccc;
+  color: black;
+  text-align: center;
+}*/
 
 /********************************
  FOOTER
@@ -117,6 +136,10 @@ footer {
   max-width: 150px;
   margin: 0 auto 20px;
   box-shadow: none;
+  /*border-radius: 150px;*/
+  border-radius: 50%;
+  /*-webkit-border-radius: 150px;
+  -moz-border-radius: 150px;*/
 }
 
 .contact-info {
