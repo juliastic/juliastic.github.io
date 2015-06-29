@@ -62,13 +62,13 @@ nav a {
 }
 
 .button {
-  /*padding: 4px;*/
-  background-color: Transparent;
+  padding: 4px;
+  background-color: transparent;
   background-repeat: no-repeat;
   border: none;
   border-bottom: 2px solid #fff;
   cursor: pointer;
-  overflow: hidden;
+  /*overflow: hidden;*/
   outline: none;
 }
 .enlarge {
