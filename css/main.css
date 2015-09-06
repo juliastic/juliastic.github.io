@@ -68,7 +68,6 @@ nav a {
   border: none;
   border-bottom: 2px solid #fff;
   cursor: pointer;
-  /*overflow: hidden;*/
   outline: none;
 }
 .enlarge {
@@ -90,15 +89,6 @@ nav a {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-
-/*.contact-info {
-  display: block;
-  margin: 10px auto;
-  padding: 10px 0;
-  background: #ccc;
-  color: black;
-  text-align: center;
-}*/
 
 /********************************
  FOOTER
@@ -136,10 +126,7 @@ footer {
   max-width: 150px;
   margin: 0 auto 20px;
   box-shadow: none;
-  /*border-radius: 150px;*/
   border-radius: 50%;
-  /*-webkit-border-radius: 150px;
-  -moz-border-radius: 150px;*/
 }
 
 .contact-info {
@@ -166,8 +153,6 @@ footer {
   margin: auto;
   min-width: 50%;
   min-height: 50%;
-
-  /*opacity: 0.9;*/
 
   -webkit-filter: blur(10px);
   -moz-filter: blur(10px);
