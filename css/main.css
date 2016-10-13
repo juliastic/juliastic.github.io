@@ -6,7 +6,7 @@
 @import url(../SanFranciscoFont/darkonlight.css);
 
 * {
-  color: #fffff0;
+  color: white;
   text-decoration: none;
 }
 
@@ -131,6 +131,7 @@ footer {
 .profile-photo {
   display: block;
   max-width: 150px;
+  max-height: 150px;
   margin: 0 auto 20px;
   box-shadow: none;
   border-radius: 50%;
