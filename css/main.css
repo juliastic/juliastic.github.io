@@ -6,8 +6,10 @@
 @import url(../SanFranciscoFont/darkonlight.css);
 
 * {
-  color: white;
-  text-decoration: none;
+	background-color: #D3D3D3;
+	color: white;
+	text-decoration: none;
+	font-weight: 50;
 }
 
 body {
@@ -25,7 +27,6 @@ img {
 h1 {
   margin: 15px 0;
   padding: 20px 20px;
-  font-weight: 100;
   line-height: 0.8em;
 }
 
@@ -88,35 +89,6 @@ nav a {
 
 .contact-info {
   font-size: 0.95em;
-}
-
-.background-image {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-}
-
-.background-image img {
-  top: -9999px;
-  left: -9999px;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
-
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px);
-  filter: blur(10px);
-
 }
 
 /********************************
