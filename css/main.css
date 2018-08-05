@@ -35,6 +35,10 @@ button {
   border: none;
 }
 
+img:hover {
+    cursor: pointer;
+}
+
 /********************************
  NAVIGATION BAR
 ********************************/
@@ -58,7 +62,6 @@ nav li {
 nav a {
   font-weight: 100;
   padding: 15px 10px;
-  text-decoration: normal;
 }
 
 /********************************
@@ -70,6 +73,10 @@ nav a {
   padding: 0 5%;
   margin: 0 auto;
   padding-bottom: 1px;
+}
+
+#special-link {
+  text-decoration: underline;
 }
 
 .profile-photo {
